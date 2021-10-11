@@ -7,15 +7,15 @@ public class Wolf {
 	int age = 10;
 
 	void walk() {
-		return "walking";
+		System.out.println("walking");
 	}
 
 	void sit() {
-		return "sitting";
+		System.out.println("sitting");
 	}
 
 	void howl() {
-		return "howling";
+		System.out.println("howling");
 	}
 
 	boolean isHunting() {
